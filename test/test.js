@@ -6,7 +6,10 @@ var page_model = {
     name: 'home',
     pages:[{
       name: 'login',
-      components: ['top','head']
+      components: ['top','head'],
+      pages: [{
+        name: 'test'
+      }]
     },{
       name: 'signin'
     },{
