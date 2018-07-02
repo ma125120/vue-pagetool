@@ -7,9 +7,6 @@ var page_model = {
     pages:[{
       name: 'login',
       components: ['top','head'],
-      pages: [{
-        name: 'test'
-      }]
     },{
       name: 'signin'
     },{
